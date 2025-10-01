@@ -140,3 +140,23 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Simple binary classification (benign vs attack)
 
 ---
+
+
+## 📥 Dataset Note
+
+The DAPT 2020 dataset files are not included in this repository due to size constraints. To run the analysis:
+
+1. Download the DAPT 2020 dataset from the official source
+2. Place the CSV files in the `data/csv/` directory
+3. The notebook will automatically detect and process all CSV files
+
+Expected files:
+- enp0s3-monday.pcap_Flow.csv
+- enp0s3-monday-pvt.pcap_Flow.csv  
+- enp0s3-tuesday.pcap_Flow.csv
+- enp0s3-wednesday.pcap_Flow.csv
+- enp0s3-thursday.pcap_Flow.csv
+- enp0s3-friday.pcap_Flow.csv
+- And additional network segment files
+
+The project includes automatic header detection and correction for inconsistent CSV formats.
